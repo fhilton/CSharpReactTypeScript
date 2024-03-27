@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Counter = () => {
     const [currentCount, setCurrentCount] = useState<number>(0);
-    const incrementCounter = () => setCurrentCount(currentCount + 1);
+    const incrementCounter = () => setCurrentCount(currentCount + 2);
 
     return (
         <div>
